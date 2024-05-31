@@ -12,7 +12,6 @@ body, html {
 
 .container {
     display: flex;
-    height: 100%;
 }
 
 main {
