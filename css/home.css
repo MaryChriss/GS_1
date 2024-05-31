@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    background-color: #0a0e27;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.areas {
+    text-align: center;
+}
+
+.areas h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.area-card {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.area-card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.area-card p {
+    margin-top: 10px;
+    font-size: 18px;
+}
