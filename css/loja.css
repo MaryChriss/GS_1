@@ -157,3 +157,9 @@ main {
 .cinema img, .book img, .restaurante img {
     margin-top: 1rem;
 }
+
+.first-discounts {
+    display: flex;
+    justify-content: center;
+}
+
