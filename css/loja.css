@@ -41,3 +41,66 @@ main {
     margin-bottom: 5rem ;
 }
 
+.tabelas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+}
+
+.first-part {
+    display: flex;
+    align-items: center;
+}
+
+.garrafas, .papeis {
+    background-color: #2288FF;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 12rem;
+    margin-right: 3rem;
+
+    h3 {
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.papeis {
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.latas, .vidro {
+    background-color: #2288FF;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 12rem;
+    margin-right: 3rem;
+
+    h3 {
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.vidro {
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
