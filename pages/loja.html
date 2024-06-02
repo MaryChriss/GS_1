@@ -15,7 +15,7 @@
     <header class="header">
         <div class="infos">
             <img class="points" src="../img/points.png" alt="Png com o icone usado para simbolizar os pontos utilizados no site">
-            <h2>0000</h2>
+            <h2 id="user-points">0000</h2>
             <img class="flag" src="../img/emojione-v1_flag-for-brazil.png" alt="Bandeira do Brasil">
         </div>
     </header>
@@ -102,19 +102,23 @@
                 </div>
             </section>
 
-            <section class="voulchers">
+            <section class="vouchers">
 
-                <h2>Voulchers</h2>
+                <div class="title">
+                    <h3>Voulchers:</h3>
+                </div>
 
                 <div class="tabs">
-                    
+
                     <div class="cinema">
                         <img src="../img/ticket.png" alt="icone de ingressos">
                         <h3>2 Ingressos para cinema</h3>
 
                         <div class="quant-points">
-                            <img src="../img/points.png" alt="icone de pontos (um circulo com ondas do mar dentro)">
-                            <p>6000</p>
+                            <button type="button" onclick="redeemReward(6000)">
+                                <img src="../img/points.png" alt="icone de pontos (um circulo com ondas do mar dentro)" width="50" height="50">
+                                6000
+                            </button>
                         </div>
                     </div>
 
@@ -123,8 +127,10 @@
                         <h3>Voucher para e-book gratuito</h3>
 
                         <div class="quant-points">
-                            <img src="../img/points.png" alt="icone de pontos (um circulo com ondas do mar dentro)">
-                            <p>12000</p>
+                            <button type="button" onclick="redeemReward(12000)">
+                                <img src="../img/points.png" alt="icone de pontos (um circulo com ondas do mar dentro)" width="50" height="50">
+                                12000
+                            </button>
                         </div>
                     </div>
 
@@ -133,8 +139,10 @@
                         <h3>$30 para restaurante</h3>
 
                         <div class="quant-points">
-                            <img src="../img/points.png" alt="icone de pontos (um circulo com ondas do mar dentro)">
-                            <p>1000</p>
+                            <button type="button" onclick="redeemReward(3000)">
+                                <img src="../img/points.png" alt="Descrição da Imagem" width="50" height="50">
+                                3000
+                            </button>
                         </div>
                     </div>
 
