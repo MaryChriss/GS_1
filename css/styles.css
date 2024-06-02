@@ -40,8 +40,8 @@
 .sidebar {
     position: absolute;
     top: 0;
-    width: 250px;
-    height: 100%;
+    min-width: 250px;
+    height: 93vh;
     border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
