@@ -105,10 +105,26 @@ main {
 }
 
 
-.voulchers {
-    display: flex;
-    justify-content: center;
+.vouchers {
+
+    z-index: 2;
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    background-color: #0a0e27;
+}
+
+.title h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
 
 .title {
     color: beige;
@@ -128,7 +144,7 @@ main {
     border-radius: 2rem;
     width: 13rem;
     height: 12rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-right: 4rem;
     display: flex;
     flex-direction: column;
@@ -156,4 +172,96 @@ main {
 
 .cinema img, .book img, .restaurante img {
     margin-top: 1rem;
+}
+
+.first-discounts {
+    display: flex;
+    justify-content: center;
+}
+
+.second-discounts {
+    display: flex;
+    justify-content: center;
+}
+
+.discount-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.porcent {
+    background-color: #BEEFFF;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: black;
+        text-align: center;
+    }
+
+    button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        height: 3rem;
+    }
+    button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.porcent-10, .porcent-20, .porcent-last {
+    background-color: #BEEFFF;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: black;
+        text-align: center;
+    }
+
+    button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0.7rem;
+        height: 3rem;
+    }
+    button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.porcent img {
+    margin-top: 1rem;
+}
+
+.porcent-10 img, .porcent-20 img, .porcent-last img {
+    margin-top: 0.5rem;
+}
+
+.second-discounts {
+    margin-bottom: 4rem;
 }
