@@ -9,6 +9,7 @@
 
 .container {
     display: flex;
+    background-color: #0a0e27;
 }
 
 main {
@@ -264,4 +265,8 @@ main {
 
 .second-discounts {
     margin-bottom: 4rem;
+}
+.main-container{
+    background-color: #0a0e27;
+    border-left: 1px solid grey;
 }
