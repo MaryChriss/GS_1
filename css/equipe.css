@@ -20,3 +20,102 @@ main {
 .main-container{
     background-color: #0a0e27;
 }
+
+.inf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.conteudo-forms {
+    background-image: url(../img/mar.png);
+
+    h3 {
+        font-size: 1rem;
+    margin-left: 17rem;
+    }
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.infos-pessoais {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 1.7rem;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.campo input {
+    width: 23rem;
+    border-radius: 5rem;
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+.mensagem textarea {
+    width: 23rem;
+    height: 12.5rem;
+    border-radius: 2rem;
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.botao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+
+    button {
+        font-size: 1rem;
+        background-color: #219CC1;
+        padding: 0.8rem;
+        border-radius: 2rem;
+    }
+}
+
+.form-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

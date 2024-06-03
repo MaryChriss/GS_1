@@ -53,49 +53,61 @@
 
         <main class="main-container">
 
-            <section>
+            <section class="formulario">
 
-                <div>
+                <div class="inf">
                     <h1>Formulario de contato</h1>
                     <p>Estamos aqui para ajudar com qualquer dúvida que você possa ter. Preencha o <br>
                         formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.</p>
                 </div>
 
-            </section>
+                <div class="conteudo-forms">
 
-            <section class="forms">
-
-                <div>
-                    <h3>Campos com * são obrigatórios.</h3>
+                    <div>
+                        <h3>Campos com * são obrigatórios.</h3>
+                    </div>
+                
+                    <div class="forms">
+                        <form onsubmit="return validarFormulario()">
+                
+                            <div class="form-sections">
+                                <div class="infos-pessoais">
+                                    <div class="campo">
+                                        <label for="nome">Nome*:</label>
+                                        <input type="text" id="nome" name="nome" required>
+                                    </div>
+                
+                                    <div class="campo">
+                                        <label for="email">Email*:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                
+                                    <div class="campo">
+                                        <label for="telefone">Telefone:</label>
+                                        <input type="tel" id="telefone" name="telefone">
+                                    </div>
+                                </div>
+                
+                                <div class="mensagem">
+                                    <div>
+                                        <label for="mensagem">Mensagem*:</label>
+                                        <textarea id="mensagem" name="mensagem" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="botao">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                
                 </div>
-
-                <form onsubmit="return validarFormulario()">
-                    <div>
-                        <label for="nome">Nome*:</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
-                    <div>
-                        <label for="email">Email*:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone">
-                    </div>
-                    <div>
-                        <label for="mensagem">Mensagem*:</label>
-                        <textarea id="mensagem" name="mensagem" required></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-
             </section>
 
-            <section>
+            <section class="equipe">
 
-                <div>
+                <div class="equip">
                     <h2>Nossa Equipe:</h2>
                     <p>Conheça as pessoas por trás do nosso projeto. Nossa equipe está dedicada a <br>
                         oferecer o melhor serviço e suporte para garantir que você tenha a melhor <br>
@@ -104,11 +116,48 @@
 
                 <div>
                     <div>
-                        <img src="" alt="">
+                        <img src="../img/Mariana.jpeg" alt="">
+                        <p>Mariana Christina</p>
+
+                        <div class="button-container">
+                            <a href="https://www.linkedin.com" class="btn linkedin">Linkedin</a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.github.com" class="btn github">GitHub</a>
+                        </div>
                     </div>
+
+                    <div>
+                        <img src="../img/henrique.png" alt="">
+                        <p>Henrique Maciel</p>
+
+                        <div class="button-container">
+                            <a href="https://www.linkedin.com" class="btn linkedin">Linkedin</a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.github.com" class="btn github">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="../img/Gabriela.png" alt="">
+                        <p>Gabriela Moguinho</p>
+
+                        <div class="button-container">
+                            <a href="https://www.linkedin.com" class="btn linkedin">Linkedin</a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.github.com" class="btn github">GitHub</a>
+                        </div>
+                    </div>
+
                 </div>
 
             </section>
+
         </main>
     </div>
 
