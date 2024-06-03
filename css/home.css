@@ -20,6 +20,10 @@ main {
     flex-direction: column;
 }
 
+.sidebar {
+    height: 100%;
+}
+
 .welcome {
     text-align: center;
     margin-bottom: 40px;

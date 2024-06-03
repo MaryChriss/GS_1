@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/equipe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="infos">
+            <img class="flag" src="../img/emojione-v1_flag-for-brazil.png" alt="Bandeira do Brasil">
+        </div>
+    </header>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>Brain Drive</h1>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <div>
+                        <img src="../img/home.png" alt="icone de casa">
+                        <li class="rota"><a href="../index.html">Home</a></li>
+                    </div>
+
+                    <div>
+                        <img src="../img/loja.png" alt="icone de loja">
+                        <li class="rota"><a href="./loja.html">Loja</a></li>
+                    </div>
+
+                    <div>
+                        <img src="../img/contatos.png" alt="icone de contatos">
+                        <li class="rota"><a href="./equipe.html">Equipe</a></li>
+                    </div>
+
+                    <div>
+                        <img src="../img/mais.png" alt="icone com um circulo com tres pontos dentro, simbolizando a aba mais">
+                        <li class="rota"><a href="#">Mais</a></li>
+                    </div>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <main class="main-container">
+
+            <section class="formulario">
+
+                <div class="inf">
+                    <h1>Formulario de contato</h1>
+                    <p>Estamos aqui para ajudar com qualquer dúvida que você possa ter. Preencha o <br>
+                        formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.</p>
+                </div>
+
+                <div class="conteudo-forms">
+
+                    <div>
+                        <h3>Campos com * são obrigatórios.</h3>
+                    </div>
+                
+                    <div class="forms">
+                        <form onsubmit="return validarFormulario()">
+                
+                            <div class="form-sections">
+                                <div class="infos-pessoais">
+                                    <div class="campo">
+                                        <label for="nome">Nome*:</label>
+                                        <input type="text" id="nome" name="nome" required>
+                                    </div>
+                
+                                    <div class="campo">
+                                        <label for="email">Email*:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                
+                                    <div class="campo">
+                                        <label for="telefone">Telefone:</label>
+                                        <input type="tel" id="telefone" name="telefone">
+                                    </div>
+                                </div>
+                
+                                <div class="mensagem">
+                                    <div>
+                                        <label for="mensagem">Mensagem*:</label>
+                                        <textarea id="mensagem" name="mensagem" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="botao">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                
+                </div>
+            </section>
+
+            <section class="equipe">
+
+                <div class="equip">
+                    <h2>Nossa Equipe:</h2>
+                    <p>Conheça as pessoas por trás do nosso projeto. Nossa equipe está dedicada a <br>
+                        oferecer o melhor serviço e suporte para garantir que você tenha a melhor
+                        experiência possível.</p>
+                </div>
+
+                <div class="colaboradores">
+
+                    <div class="mariana">
+                        <img src="../img/Mariana.jpeg" alt="">
+                        <p>Mariana Christina</p>
+
+                        <div class="redes">
+                            <div>
+                                <a href="https://www.linkedin.com/in/mariana-fernandes-92690425a/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br" class="linkedin">Linkedin</a>
+                            </div>
+
+                            <div>
+                                <a href="https://github.com/MaryChriss" class="github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="henrique">
+                        <img src="../img/henrique.png" alt="">
+                        <p>Henrique Maciel</p>
+
+                        <div class="redes">
+                            <div>
+                                <a href="https://www.linkedin.com/in/mariana-fernandes-92690425a/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br" class=" linkedin">Linkedin</a>
+                            </div>
+
+                            <div>
+                                <a href="https://github.com/MaryChriss" class="github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gabi">
+                        <img src="../img/Gabriela.png" alt="">
+                        <p>Gabriela Moguinho</p>
+
+                        <div class="redes">
+                            <div>
+                                <a href="https://www.linkedin.com/in/mariana-fernandes-92690425a/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br" class="linkedin">Linkedin</a>
+                            </div>
+
+                            <div>
+                                <a href="https://github.com/MaryChriss" class="github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <h1>Brain Drive</h1>
+    </footer>
+</body>
+</html>

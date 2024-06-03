@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container{
+    background-color: #0a0e27;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.welcome h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+    margin-bottom: 5rem ;
+}
+
+.tabelas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+}
+
+.first-part {
+    display: flex;
+    align-items: center;
+}
+
+.garrafas, .papeis {
+    background-color: #2288FF;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 12rem;
+    margin-right: 3rem;
+
+    h3 {
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.papeis {
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.latas, .vidro {
+    background-color: #2288FF;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 12rem;
+    margin-right: 3rem;
+
+    h3 {
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.vidro {
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+
+.vouchers {
+
+    z-index: 2;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    background-color: #0a0e27;
+}
+
+.title h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.title {
+    color: beige;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.7rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.cinema, .book, .restaurante {
+    background-color: #BEEFFF;
+    border-radius: 2rem;
+    width: 13rem;
+    height: 12rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: black;
+    }
+
+    button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        height: 3rem;
+    }
+    button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.cinema img, .book img, .restaurante img {
+    margin-top: 1rem;
+}
+
+.first-discounts {
+    display: flex;
+    justify-content: center;
+}
+
+.second-discounts {
+    display: flex;
+    justify-content: center;
+}
+
+.discount-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.porcent {
+    background-color: #BEEFFF;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: black;
+        text-align: center;
+    }
+
+    button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        height: 3rem;
+    }
+    button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.porcent-10, .porcent-20, .porcent-last {
+    background-color: #BEEFFF;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: black;
+        text-align: center;
+    }
+
+    button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0.7rem;
+        height: 3rem;
+    }
+    button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.porcent img {
+    margin-top: 1rem;
+}
+
+.porcent-10 img, .porcent-20 img, .porcent-last img {
+    margin-top: 0.5rem;
+}
+
+.second-discounts {
+    margin-bottom: 4rem;
+}
