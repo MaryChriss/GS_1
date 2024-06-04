@@ -139,12 +139,14 @@ label {
 }
 
 .colaborador{
-.imagem{
-    width: 12rem;
-    height: 12rem;
-    border-radius: 10rem;
-    border: white 3px solid;
-}}
+
+    .imagem{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 10rem;
+        border: white 3px solid;
+}
+}
 
 .colaborador {
     text-align: center;
@@ -169,7 +171,7 @@ label {
 }
 
 .github {
-    background-color: #808080;
+    background-color: #428992;
     border-radius: 5rem;
     border: white 1px solid;
     padding: 0.5rem;
