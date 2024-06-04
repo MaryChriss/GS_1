@@ -39,17 +39,10 @@
 
 .sidebar {
     min-width: 250px;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
     height: 93vh;
     border-right: 1px solid grey;
-=======
     height: 100vh;
->>>>>>> Stashed changes
-=======
     height: 100vh;
-    
->>>>>>> e5eb17671ee158e9800e75addb5308af24d2c12b
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,15 +74,9 @@
 .brand h1 {
     color: #00a2ff;
     font-size: 2rem;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    margin-top: 2rem;
-=======
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
->>>>>>> Stashed changes
-=======
->>>>>>> e5eb17671ee158e9800e75addb5308af24d2c12b
 }
 
 .rota {
