@@ -36,13 +36,16 @@
     display: flex;
 }
 
-
 .sidebar {
     position: absolute;
     top: 0;
     min-width: 250px;
+<<<<<<< Updated upstream
     height: 93vh;
     border-right: 1px solid grey;
+=======
+    height: 100vh;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +72,12 @@
     color: #00a2ff;
     margin-bottom: 40px;
     font-size: 2rem;
+<<<<<<< Updated upstream
     margin-top: 2rem;
+=======
+    display: flex;
+    justify-content: center;
+>>>>>>> Stashed changes
 }
 
 .rota {

@@ -60,15 +60,15 @@ main {
     width: 22rem;
     height: 12rem;
     margin-right: 3rem;
+}
 
-    h3 {
-        margin: 1rem;
-        font-size: 1.8rem;
-    }
+.garrafas h3, .papeis h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
 
-    p {
-        font-size: 1.5rem;
-    }
+.garrafas p, .papeis p {
+    font-size: 1.4rem;
 }
 
 .papeis {
@@ -88,15 +88,15 @@ main {
     width: 22rem;
     height: 12rem;
     margin-right: 3rem;
+}
 
-    h3 {
-        margin: 1rem;
-        font-size: 1.8rem;
-    }
+.latas h3, .vidro h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
 
-    p {
-        font-size: 1.5rem;
-    }
+.latas p, .vidro p {
+    font-size: 1.4rem;
 }
 
 .vidro {
@@ -150,28 +150,30 @@ main {
     flex-direction: column;
     align-items: center;
 
-    h3 {
-        color: black;
-    }
-
-    button {
-        background-color: #001D48;
-        border-radius: 10rem;
-        display: flex;
-        align-items: center;
-        margin-top: 1rem;
-        height: 3rem;
-    }
-    button  img{
-        margin-top: 0;
-        margin-right: 1rem;
-        height: 2rem;
-        width: 2rem;
-    }
 }
 
 .cinema img, .book img, .restaurante img {
     margin-top: 1rem;
+}
+
+.cinema h3, .book h3, .restaurante h3 {
+    color: black;
+}
+
+.cinema button, .book button, .restaurante button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.cinema button img, .book button img, .restaurante button img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .first-discounts {
@@ -200,29 +202,30 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    h3 {
-        color: black;
-        text-align: center;
-    }
-
-    button {
-        background-color: #001D48;
-        border-radius: 10rem;
-        display: flex;
-        align-items: center;
-        margin-top: 1.5rem;
-        height: 3rem;
-    }
-    button  img{
-        margin-top: 0;
-        margin-right: 1rem;
-        height: 2rem;
-        width: 2rem;
-    }
 }
 
-.porcent-10, .porcent-20, .porcent-last {
+.porcent h3 {
+    color: black;
+    text-align: center;
+}
+
+.porcent button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    height: 3rem;
+}
+
+.porcent button  img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.porcent-10, .porcent-20, .porcent-last, .porcent-roupas {
     background-color: #BEEFFF;
     border-radius: 2rem;
     width: 15rem;
@@ -232,33 +235,97 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    h3 {
-        color: black;
-        text-align: center;
-    }
+.porcent-10 h3 {
+    color: black;
+    text-align: center;
+}
 
-    button {
-        background-color: #001D48;
-        border-radius: 10rem;
-        display: flex;
-        align-items: center;
-        margin-top: 0.7rem;
-        height: 3rem;
-    }
-    button  img{
-        margin-top: 0;
-        margin-right: 1rem;
-        height: 2rem;
-        width: 2rem;
-    }
+.porcent-10 button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    height: 3rem;
+}
+
+.porcent-10 button  img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.porcent-20 h3 {
+    color: black;
+    text-align: center;
+}
+
+.porcent-20 button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    height: 3rem;
+}
+
+.porcent-20 button  img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.porcent-last h3 {
+    color: black;
+    text-align: center;
+}
+
+.porcent-last button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    height: 3rem;
+}
+
+.porcent-last button  img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.porcent-roupas h3 {
+    color: black;
+    text-align: center;
+}
+
+.porcent-roupas button {
+    background-color: #001D48;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    height: 3rem;
+}
+
+.porcent-roupas button  img{
+    margin-top: 0;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .porcent img {
     margin-top: 1rem;
 }
 
-.porcent-10 img, .porcent-20 img, .porcent-last img {
+.porcent-10 img, .porcent-20 img, .porcent-last img, .porcent-roupas img {
     margin-top: 0.5rem;
 }
 

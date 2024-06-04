@@ -29,18 +29,19 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
+}
 
-    h1 {
-        font-size: 3rem;
-    }
+.inf h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
 
-    p {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
+.inf p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .conteudo-forms {
@@ -95,7 +96,7 @@ label {
         margin-top: 2rem;
         margin-bottom: 2rem;
 
-    button {
+    .btn {
         font-size: 1rem;
         background-color: #219CC1;
         padding: 0.8rem;
@@ -115,16 +116,17 @@ label {
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
+}
 
-    h2 {
-        font-size: 2rem;
-    }
+.equip h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
-    p {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
+.equip p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .colaboradores {
@@ -132,19 +134,21 @@ label {
     justify-content: center;
     gap: 5rem;
     margin-top: 3rem;
+}
 
+.colaborador{
 
-    img {
-        width: 15rem;
-        height: 15rem;
-        border-radius: 10rem;
-        border: white 3px solid;
-    }
+.imagem{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10rem;
+    border: white 3px solid;
+}
+}
 
-    p {
-        text-align: center;
-        font-size: 1.5rem;
-    }
+.colaborador {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .redes {
