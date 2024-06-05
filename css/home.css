@@ -57,6 +57,7 @@ main {
     margin: 0;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-left: 2rem;
     border-radius: 6rem;
     background-color: #4390cf;
     display: flex;
@@ -79,14 +80,15 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
 
-    img{
-        width: 63px;
-    }
-    p{
-        width: 25rem;
-        height: 5rem;
-    }
+.passo img{
+    width: 63px;
+}
+
+.passo p{
+    width: 25rem;
+    height: 5rem;
 }
 
 .passo h3 {
