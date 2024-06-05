@@ -13,6 +13,9 @@
 
 <body>
     <header class="header">
+        <div class="brand">
+            <h1>Brain Drive</h1>
+        </div>
         <div class="infos">
             <img class="points" src="./img/points.png" alt="Png com o icone usado para simbolizar os pontos utilizados no site">
             <h2>0000</h2>
@@ -22,16 +25,14 @@
 
     <div class="container">
 
-        <aside class="sidebar">
-            <div class="brand">
-                <h1>Brain Drive</h1>
-            </div>
+        <div class="sidebar">
+
 
             <nav class="menu">
                 <ul>
                     <div>
                         <img src="./img/home.png" alt="icone de casa">
-                        <li class="rota"><a href="#">Home</a></li>
+                        <li class="rota"><a href="./index.html">Home</a></li>
                     </div>
 
                     <div>
@@ -41,7 +42,7 @@
 
                     <div>
                         <img src="./img/contatos.png" alt="icone de contatos">
-                        <li class="rota"><a href="#">Equipe</a></li>
+                        <li class="rota"><a href="./pages/equipe.html">Equipe</a></li>
                     </div>
 
                     <div>
@@ -51,36 +52,53 @@
                 </ul>
             </nav>
 
-        </aside>
+        </div>
 
-        <main class="main-container">
+        <div class="main-container">
 
             <section class="welcome">
-                <h2>Bem-vindo ao nosso Programa de Incentivo à Reciclagem de Plásticos!</h2>
+                <h1>Bem-vindo ao nosso Programa de Incentivo à Reciclagem de Plásticos!</h1>
                 <p>
-                    Nosso objetivo é revolucionar o tratamento do lixo plástico nas comunidades, promovendo a coleta e reciclagem.<br>
-                    Através do nosso site, monitoramos as áreas com maior poluição e incentivamos os cidadãos a se inscreverem para participar da limpeza.<br>
-                    Após a confirmação da limpeza por nossa equipe, recompensamos os participantes, estimulando a preservação ambiental e o engajamento comunitário.<br>
+                    Ajude a manter nosso planeta limpo através da reciclagem consciente. Comunique-se com nosso chatbot para <br>
+                    registrar suas atividades de reciclagem e contribuir para um ambiente mais limpo
                 </p>
             </section>
 
-            <section class="areas">
-                <h3>Áreas que precisam da sua ajuda:</h3>
+            <div class="sub">
+                <h2>Passo a passo:</h2>
+            </div>
+        
+            <section class="passoAPasso">
+                <div class="passos-container">
+                
+                    <div class="first-step">
+                        <div class="passo">
 
-                <div class="area-card">
-                    <div class="area-item">
-                        <img src="./img/praia_da_tijuca.png" alt="Imagem da praia Da Tijuca/RJ poluida">
-                        <p>Praia Da Tijuca/RJ</p>
+                            <img src="./img/recicla.png" alt="Ícone">
+                            <h3>Passo 1: Realize sua Coleta</h3>
+                            <p>Separe os materiais recicláveis de acordo com as diretrizes locais.</p>
+                        </div>
+        
+                        <div class="passo">
+                            <img  src="./img/watson.png" class="watson" alt="Icone watson">
+                            <h3>Passo 2: Converse com Nosso Chatbot</h3>
+                            <p>Registre suas atividades de reciclagem.</p>
+                        </div>
                     </div>
-
-                    <div class="area-item">
-                        <img src="./img/santos.png" alt="Imagem da praia de Santos poluida">
-                        <p>Santos/SP</p>
+        
+                    <div class="second-step">
+        
+                        <div class="passo">
+                            <img src="./img/picture.png" alt="Ícone de user">
+                            <h3>Passo 3: Envie Relatórios e Fotos</h3>
+                            <p>Compartilhe os detalhes da sua coleta.</p>
+                        </div>
                     </div>
+        
                 </div>
-
             </section>
-        </main>
+
+        </div>
     </div>
 
     <footer>
