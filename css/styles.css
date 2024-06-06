@@ -251,24 +251,44 @@ footer {
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-    .welcome h1 {
+    .brand h1 {
         font-size: 2.25rem;
     }
 
-    .welcome p {
+    .rota a {
         font-size: 1.5rem;
     }
-
-    .passos-container {
-        flex-direction: row;
-    }
-
-    .passo img {
-        width: 63px;
-    }
-
-    .passo p {
-        width: 25rem;
-        height: 5rem;
+    
+    footer h1 {
+        font-size: 2.25rem;
     }
 }
+
+@media (min-width: 1201px) {
+
+    .brand h1 {
+        font-size: 2.5rem;
+    }
+
+    .rota a {
+        font-size: 1.5rem;
+    }
+    
+    footer h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .brand h1 {
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    .rota a {
+        font-size: 1.5rem;
+    }
+    
+    footer h1 {
+        font-size: 2.5rem;
+    }}
