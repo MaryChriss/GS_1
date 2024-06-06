@@ -33,7 +33,7 @@ function login(event) {
     let storedUser = JSON.parse(localStorage.getItem('user'));
 
     if (storedUser && storedUser.email === email && storedUser.password === password) {
-        alert('Login bem-sucedido!');
+        alert('Login realizado com sucesso!');
         window.location.href = 'pages/home.html';
     } else {
         alert('Email ou senha incorretos.');
