@@ -335,3 +335,311 @@ main {
     background-color: #0a0e27;
     border-left: 1px solid grey;
 }
+
+@media (max-width: 576px) {
+    .welcome {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    .welcome h2 {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+    
+    .welcome p {
+        font-size: 1rem;
+        margin-bottom: 2rem ;
+        margin-left: 1rem;
+    }
+
+    
+    .first-part {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .garrafas, .papeis {
+        background-color: #2288FF;
+        border-radius: 2rem;
+        width: 17rem;
+        height: 12rem;
+        margin-right: 0rem;
+    }
+    
+    .garrafas h3, .papeis h3 {
+        margin: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .garrafas p, .papeis p {
+        font-size: 1.2rem;
+    }
+    
+    .papeis {
+        margin-right: 0;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .second-part {
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .latas, .vidro {
+        background-color: #2288FF;
+        border-radius: 2rem;
+        width: 17rem;
+        height: 12rem;
+        margin-right: 0rem;
+    }
+    
+    .latas h3, .vidro h3 {
+        margin: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .latas p {
+        font-size: 1.2rem;
+    }
+
+    .vidro p {
+        font-size: 1.1rem;
+    }
+    
+    .vidro {
+        margin-right: 0;
+        margin-left: 0rem;
+    }
+    
+    .vouchers {
+        z-index: 2;
+    }
+    
+    .title {
+        display: flex;
+        align-items: center;
+        border-top: 2px solid #ccc;
+        padding-top: 10px;
+        margin-top: 2rem;
+        margin-bottom: 20px;
+        background-color: #0a0e27;
+    }
+    
+    .title h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        font-size: 1.7rem;
+    }
+    
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cinema, .book, .restaurante {
+        background-color: #BEEFFF;
+        border-radius: 2rem;
+        width: 8rem;
+        height: 12rem;
+        margin-top: 2rem;
+        margin-right: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cinema img, .book img, .restaurante img {
+        margin-top: 1rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .cinema h3, .book h3, .restaurante h3 {
+        text-align: center;
+        color: black;
+    }
+    
+    .first-discounts {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .second-discounts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .discount-cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .porcent {
+        background-color: #BEEFFF;
+        border-radius: 2rem;
+        width: 8rem;
+        height: 12rem;
+        margin-top: 4rem;
+        margin-right: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .porcent h3 {
+        color: black;
+        text-align: center;
+    }
+    
+    .porcent button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        height: 3rem;
+    }
+    
+    .porcent button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .porcent-10, .porcent-20, .porcent-last, .porcent-roupas {
+        background-color: #BEEFFF;
+        border-radius: 2rem;
+        width: 8rem;
+        height: 12rem;
+        margin-top: 4rem;
+        margin-right: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .porcent-10 h3 {
+        color: black;
+        text-align: center;
+    }
+    
+    .porcent-10 button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        height: 3rem;
+    }
+    
+    .porcent-10 button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .porcent-20 h3 {
+        color: black;
+        text-align: center;
+    }
+    
+    .porcent-20 button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        height: 3rem;
+    }
+    
+    .porcent-20 button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .porcent-last h3 {
+        color: black;
+        text-align: center;
+    }
+    
+    .porcent-last button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        height: 3rem;
+    }
+    
+    .porcent-last button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .porcent-roupas h3 {
+        color: black;
+        text-align: center;
+    }
+    
+    .porcent-roupas button {
+        background-color: #001D48;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        height: 3rem;
+    }
+    
+    .porcent-roupas button  img{
+        margin-top: 0;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .porcent img {
+        margin-top: 0rem;
+    }
+    
+    .porcent-10 img, .porcent-20 img, .porcent-last img, .porcent-roupas img {
+        margin-top: 0rem;
+    }
+    
+    .second-discounts {
+        margin-bottom: 4rem;
+    }
+    .main-container{
+        background-color: #0a0e27;
+        border-left: 1px solid grey;
+    }
+}
