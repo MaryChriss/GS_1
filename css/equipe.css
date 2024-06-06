@@ -282,3 +282,54 @@ label {
         font-size: 1.2rem;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .inf h1 {
+        font-size: 2.5rem;
+    }
+
+    .inf p {
+        font-size: 1.5rem;
+    }
+
+    .campo input,
+    .mensagem textarea {
+        width: 75%;
+    }
+
+    .colaboradores {
+        flex-direction: row;
+    }
+
+    .colaborador .imagem {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .colaborador {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .inf h1 {
+        font-size: 2.75rem;
+    }
+
+    .inf p {
+        font-size: 1.6rem;
+    }
+
+    .colaboradores {
+        flex-direction: row;
+    }
+
+    .colaborador .imagem {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .colaborador {
+        font-size: 1.6rem;
+    }
+}
