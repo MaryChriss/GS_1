@@ -223,3 +223,34 @@ label {
         margin-top: 10rem;
     }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .inf h1 {
+        font-size: 2rem;
+    }
+
+    .inf p {
+        font-size: 1.3rem;
+    }
+
+    .form-sections {
+        flex-direction: column;
+    }
+
+    .campo input,.mensagem textarea {
+        width: 20rem;
+    }
+
+    .colaboradores {
+        flex-direction: column;
+    }
+
+    .colaborador .imagem {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .colaborador {
+        font-size: 1.25rem;
+    }
+}
