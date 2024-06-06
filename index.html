@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login e Cadastro</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/login.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,21 +14,20 @@
                 <button id="login-toggle" onclick="showLogin()">Login</button>
                 <button id="signup-toggle" onclick="showSignup()">Cadastro</button>
             </div>
-            <form id="login-form" class="form">
+            <form id="login-form" class="form" onsubmit="login(event)">
                 <h2>Login</h2>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Senha" required>
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Senha" required>
                 <button type="submit">Entrar</button>
             </form>
-            <form id="signup-form" class="form hidden">
+            <form id="signup-form" class="form hidden" onsubmit="signup(event)">
                 <h2>Cadastro</h2>
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Senha" required>
+                <input type="text" id="signup-name" placeholder="Nome" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Senha" required>
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
 </body>
 </html>
