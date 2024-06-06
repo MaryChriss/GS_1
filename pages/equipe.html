@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/equipe.css">
+    <script src="../js/formulario.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -13,23 +14,25 @@
 
 <body>
     <header class="header">
+        <div class="brand">
+            <h1>Brain Drive</h1>
+        </div>
         <div class="infos">
             <img class="flag" src="../img/emojione-v1_flag-for-brazil.png" alt="Bandeira do Brasil">
         </div>
+        
     </header>
 
     <div class="container">
 
         <aside class="sidebar">
-            <div class="brand">
-                <h1>Brain Drive</h1>
-            </div>
+
 
             <nav class="menu">
                 <ul>
                     <div>
                         <img src="../img/home.png" alt="icone de casa">
-                        <li class="rota"><a href="../index.html">Home</a></li>
+                        <li class="rota"><a href="../pages/home.html">Home</a></li>
                     </div>
 
                     <div>
@@ -63,10 +66,6 @@
 
                 <div class="conteudo-forms">
 
-                    <div>
-                        <h3>Campos com * são obrigatórios.</h3>
-                    </div>
-                
                     <div class="forms">
                         <form onsubmit="return validarFormulario()">
                 
@@ -97,7 +96,7 @@
                             </div>
                 
                             <div class="botao">
-                                <button type="submit">Enviar</button>
+                                <button type="submit" class="btn">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -116,9 +115,11 @@
 
                 <div class="colaboradores">
 
-                    <div class="mariana">
-                        <img src="../img/Mariana.jpeg" alt="">
+                    <div class="colaborador">
+                        <img src="../img/Mariana.jpeg" alt="" class="imagem">
                         <p>Mariana Christina</p>
+                        <p>RM: 554773</p>
+                        <P>E-mail: marychris.crf@gmail.com</P>
 
                         <div class="redes">
                             <div>
@@ -132,9 +133,11 @@
                     </div>
                     
 
-                    <div class="henrique">
-                        <img src="../img/henrique.png" alt="">
+                    <div class="colaborador">
+                        <img src="../img/henrique.png" alt="" class="imagem">
                         <p>Henrique Maciel</p>
+                        <p>RM: 556480</p>
+                        <P>E-mail: marychris.crf@gmail.com</P>
 
                         <div class="redes">
                             <div>
@@ -147,9 +150,11 @@
                         </div>
                     </div>
 
-                    <div class="gabi">
-                        <img src="../img/Gabriela.png" alt="">
+                    <div class="colaborador">
+                        <img src="../img/Gabriela.png" alt="" class="imagem">
                         <p>Gabriela Moguinho</p>
+                        <p>RM: 556143</p>
+                        <P>E-mail: marychris.crf@gmail.com</P>
 
                         <div class="redes">
                             <div>
