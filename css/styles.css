@@ -268,6 +268,7 @@ footer {
 
     .brand h1 {
         font-size: 2.5rem;
+        margin-top: 0;
     }
 
     .rota a {
@@ -278,17 +279,3 @@ footer {
         font-size: 2.5rem;
     }
 }
-
-@media (min-width: 1201px) {
-    .brand h1 {
-        font-size: 2.5rem;
-        margin-top: 0;
-    }
-
-    .rota a {
-        font-size: 1.5rem;
-    }
-    
-    footer h1 {
-        font-size: 2.5rem;
-    }}
