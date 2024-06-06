@@ -254,3 +254,31 @@ label {
         font-size: 1.25rem;
     }
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .inf h1 {
+        font-size: 2.25rem;
+    }
+
+    .inf p {
+        font-size: 1.4rem;
+    }
+
+    .campo input,
+    .mensagem textarea {
+        width: 15rem;
+    }
+
+    .colaboradores {
+        flex-direction: row;
+    }
+
+    .colaborador .imagem {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .colaborador {
+        font-size: 1.2rem;
+    }
+}
